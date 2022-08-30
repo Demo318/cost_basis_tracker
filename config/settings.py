@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cost_basis_tracker',
     'crispy_forms',
-    'django_crispy_bulma',
+    'crispy_bulma',
 ]
 
 MIDDLEWARE = [
