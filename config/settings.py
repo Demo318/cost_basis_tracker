@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'cost_basis_tracker',
+    'crispy_forms',
+    'django_crispy_bulma',
 ]
 
 MIDDLEWARE = [
@@ -123,3 +125,16 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# Crispy bulma settings
+# See: https://github.com/python-discord/django-crispy-bulma
+
+CRISPY_ALLOWED_TEMPLATE_PACKS = (
+    "bootstrap",
+    "uni_form",
+    "bootstrap3",
+    "bootstrap4",
+    "bulma",
+)
+
+CRISPY_TEMPLATE_PACK = "bulma"
